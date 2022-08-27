@@ -56,4 +56,5 @@ The profiler report can be found [here](profiler-report.html).
 - endpoint_inference.py script is used to setup and deploy our working endpoint.
 - For testing purposes ,test image is fed to the endpoint for inference.
 - The inference is performed using the Predictor Object. 
-![End Point Deployment](snapshots/Screen Shot 2022-08-26 at 6.24.38 PM.png)
+- 
+![End Point Deployment](snapshots/Screen Shot 2022-08-26 at 6.24.38 PM.png "End Point")
