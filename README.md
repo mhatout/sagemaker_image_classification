@@ -35,20 +35,20 @@ I used the dog breeds dataset contains images from 133 dog breeds divided into t
  * Weight decay - 0.1x to 10x
 
 Hyperparameter tuning job
-![Hyperparameter tuning job](snapshots/Screen Shot 2022-08-26 at 2.49.07 PM.png)
+![Hyperparameter tuning job](snapshots/Screen%20Shot%202022-08-26%20at%202.49.07%20PM.png)
 
 Training job
-![Training job](snapshots/Screen Shot 2022-08-27 at 2.09.27 AM.png)
+![Training job](snapshots/Screen%20Shot%202022-08-27%20at%202.09.27%20AM.png)
 
 ## Debugging and Profiling
 
 The plot of the debugging output.
-![debugging output](snapshots/Screen Shot 2022-08-26 at 6.36.47 PM.png)
+![debugging output](snapshots/Screen%20Shot%202022-08-26%20at%206.36.47%20PM.png)
 
 ### Profiler Output
 
 The profiler report can be found [here](profiler-report.html).
-![Profiler Output](snapshots/Screen Shot 2022-08-27 at 1.51.44 AM.png)
+![Profiler Output](snapshots/Screen%20Shot%202022-08-27%20at%201.51.44%20AM.png)
 
 
 ## Model Deployment
@@ -56,5 +56,5 @@ The profiler report can be found [here](profiler-report.html).
 - endpoint_inference.py script is used to setup and deploy our working endpoint.
 - For testing purposes ,test image is fed to the endpoint for inference.
 - The inference is performed using the Predictor Object. 
-- 
-![End Point Deployment](snapshots/Screen Shot 2022-08-26 at 6.24.38 PM.png "End Point")
+
+![End Point Deployment](snapshots/Screen%20Shot%202022-08-26%20at%206.24.38%20PM.png)
