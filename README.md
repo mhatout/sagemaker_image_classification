@@ -3,10 +3,10 @@
 Used AWS Sagemaker to train a pretrained model that can perform image classification by using the Sagemaker profiling, debugger, hyperparameter tuning and other good ML engineering practices.
 
 - The following tasks are performed:
-1. Used a pretrained Resnet50 model from pytorch vision library
-2. Finetune the model with hyperparameter tuning
-3. Implement Profiling and Debugging with hooks
-4. Deploy the model and perform inference
+  1. Used a pretrained Resnet50 model from pytorch vision library
+  2. Finetune the model with hyperparameter tuning
+  3. Implement Profiling and Debugging with hooks
+  4. Deploy the model and perform inference
 
 ## Project Set Up and Installation
 
@@ -35,6 +35,7 @@ I used the dog breeds dataset contains images from 133 dog breeds divided into t
   * Weight decay - 0.1x to 10x
 
 Hyperparameter tuning job
+
 ![Hyperparameter tuning job](snapshots/Screen%20Shot%202022-08-26%20at%202.49.07%20PM.png)
 
 Training job
