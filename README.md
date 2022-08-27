@@ -30,24 +30,27 @@ I used the dog breeds dataset contains images from 133 dog breeds divided into t
 - A pair of fully connected neural networks layers added to the pretrained model to perform the classification.
 - AdamW as an optimizer.
 - Hyperparamets tuned:
- * Learning rate- 0.01 to 0.1
- * Batch size - [ 64, 128 ]
- * Weight decay - 0.1x to 10x
+  * Learning rate- 0.01 to 0.1
+  * Batch size - [ 64, 128 ]
+  * Weight decay - 0.1x to 10x
 
 Hyperparameter tuning job
 ![Hyperparameter tuning job](snapshots/Screen%20Shot%202022-08-26%20at%202.49.07%20PM.png)
 
 Training job
+
 ![Training job](snapshots/Screen%20Shot%202022-08-27%20at%202.09.27%20AM.png)
 
 ## Debugging and Profiling
 
 The plot of the debugging output.
+
 ![debugging output](snapshots/Screen%20Shot%202022-08-26%20at%206.36.47%20PM.png)
 
 ### Profiler Output
 
-The profiler report can be found [here](profiler-report.html).
+[The profiler report](profiler-report.html).
+
 ![Profiler Output](snapshots/Screen%20Shot%202022-08-27%20at%201.51.44%20AM.png)
 
 
